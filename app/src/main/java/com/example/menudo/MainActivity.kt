@@ -11,23 +11,25 @@ class MainActivity : AppCompatActivity() {
 }
 
 
-      /*  fun main() {
-        var numero 1= 10
-        val numero 2= 33
-        val numero 3= 66
-        
-        val resultado :int = numero 1 +numero2 + numero 3
+fun main() {
+    var numero1 = 10
+    val numero2 = 33
+    val numero3 = 66
+
+    var resultado: int= numero1 + numero2 + numero3
 
         println ( resultado)
 
-        numero = 55
-        resultado = numero 1 +numero2 + numero 3
-        println(resultado)
+    numero1 = 55
 
-        val promedio : int = resultado/3
-        
-        println( "el promedio es:$promedio" )
+    resultado = numero1 + numero2 + numero3
+    
+    println ( resultado)
 
-        }
-    }
-*/
+    val promedio:int = resultado / 3
+
+    println("el promedio es:$promedio")
+      }
+
+
+
