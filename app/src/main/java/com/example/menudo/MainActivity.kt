@@ -16,7 +16,7 @@ fun main() {
     val numero2 = 33
     val numero3 = 66
 
-    var resultado: int= numero1 + numero2 + numero3
+    var resultado: Int = numero1 + numero2 + numero3
 
         println ( resultado)
 
@@ -26,7 +26,7 @@ fun main() {
     
     println ( resultado)
 
-    val promedio:int = resultado / 3
+    val promedio: Int = resultado / 3
 
     println("el promedio es:$promedio")
       }

@@ -5,7 +5,6 @@ fun main() {
     val cantidadUsuarios = readln().toInt()
     for (i in 1..cantidadUsuarios) {
         println("ingresar nombre ")
-
         var nombre = readln()
         while (validarNombre(nombre)) {
             println("nombre invalido, ingresar nombre valido")
@@ -38,13 +37,16 @@ fun main() {
         var usuario = Usuario(nombre, apellido, edad, correo, sistemaSalud)
         usuarios.add(usuario)
     }
-}
-    for( u in usuarios.sortedBY{
-        usuario->usuario.edad
-    }){
-    println("$u")
-    }
 
+
+    for (u in usuarios.sortedBy {
+            usuario ->
+        usuario.edad
+    }) {
+        println("$u")
+
+    }
+}
 
 
 fun validarsistemaSalud(sistemaSalud: String): Boolean {
